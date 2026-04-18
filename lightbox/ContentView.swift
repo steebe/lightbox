@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  lightbox
+//  Lightbox
 //
 //  Created by Steve Bass on 2/6/26.
 //

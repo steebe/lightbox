@@ -12,27 +12,27 @@
 			containerPortal = AA7A30E22F36EEB3009005A5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AA7A30E92F36EEB3009005A5;
-			remoteInfo = "light-table";
+			remoteInfo = "Lightbox";
 		};
 		AA7A31042F36EEB4009005A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AA7A30E22F36EEB3009005A5 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AA7A30E92F36EEB3009005A5;
-			remoteInfo = "light-table";
+			remoteInfo = "Lightbox";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA7A30EA2F36EEB3009005A5 /* lightbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lightbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7A30F92F36EEB4009005A5 /* lightboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA7A31032F36EEB4009005A5 /* lightboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lightboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7A30EA2F36EEB3009005A5 /* Lightbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lightbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7A30F92F36EEB4009005A5 /* LightboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7A31032F36EEB4009005A5 /* LightboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AA7A30EC2F36EEB3009005A5 /* lightbox */ = {
+		AA7A30EC2F36EEB3009005A5 /* Lightbox */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = lightbox;
+			path = Lightbox;
 			sourceTree = "<group>";
 		};
 		AA7A30FC2F36EEB4009005A5 /* Tests */ = {
@@ -75,7 +75,7 @@
 		AA7A30E12F36EEB3009005A5 = {
 			isa = PBXGroup;
 			children = (
-				AA7A30EC2F36EEB3009005A5 /* lightbox */,
+				AA7A30EC2F36EEB3009005A5 /* Lightbox */,
 				AA7A30FC2F36EEB4009005A5 /* Tests */,
 				AA7A31062F36EEB4009005A5 /* UITests */,
 				AA7A30EB2F36EEB3009005A5 /* Products */,
@@ -85,9 +85,9 @@
 		AA7A30EB2F36EEB3009005A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA7A30EA2F36EEB3009005A5 /* lightbox.app */,
-				AA7A30F92F36EEB4009005A5 /* lightboxTests.xctest */,
-				AA7A31032F36EEB4009005A5 /* lightboxUITests.xctest */,
+				AA7A30EA2F36EEB3009005A5 /* Lightbox.app */,
+				AA7A30F92F36EEB4009005A5 /* LightboxTests.xctest */,
+				AA7A31032F36EEB4009005A5 /* LightboxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA7A30E92F36EEB3009005A5 /* lightbox */ = {
+		AA7A30E92F36EEB3009005A5 /* Lightbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA7A310D2F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightbox" */;
+			buildConfigurationList = AA7A310D2F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "Lightbox" */;
 			buildPhases = (
 				AA7A30E62F36EEB3009005A5 /* Sources */,
 				AA7A30E72F36EEB3009005A5 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AA7A30EC2F36EEB3009005A5 /* lightbox */,
+				AA7A30EC2F36EEB3009005A5 /* Lightbox */,
 			);
-			name = lightbox;
+			name = Lightbox;
 			packageProductDependencies = (
 			);
-			productName = "light-table";
-			productReference = AA7A30EA2F36EEB3009005A5 /* lightbox.app */;
+			productName = "Lightbox";
+			productReference = AA7A30EA2F36EEB3009005A5 /* Lightbox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA7A30F82F36EEB4009005A5 /* lightboxTests */ = {
+		AA7A30F82F36EEB4009005A5 /* LightboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA7A31102F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightboxTests" */;
+			buildConfigurationList = AA7A31102F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "LightboxTests" */;
 			buildPhases = (
 				AA7A30F52F36EEB4009005A5 /* Sources */,
 				AA7A30F62F36EEB4009005A5 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				AA7A30FC2F36EEB4009005A5 /* Tests */,
 			);
-			name = lightboxTests;
+			name = LightboxTests;
 			packageProductDependencies = (
 			);
-			productName = "light-tableTests";
-			productReference = AA7A30F92F36EEB4009005A5 /* lightboxTests.xctest */;
+			productName = "LightboxTests";
+			productReference = AA7A30F92F36EEB4009005A5 /* LightboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA7A31022F36EEB4009005A5 /* lightboxUITests */ = {
+		AA7A31022F36EEB4009005A5 /* LightboxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA7A31132F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightboxUITests" */;
+			buildConfigurationList = AA7A31132F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "LightboxUITests" */;
 			buildPhases = (
 				AA7A30FF2F36EEB4009005A5 /* Sources */,
 				AA7A31002F36EEB4009005A5 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				AA7A31062F36EEB4009005A5 /* UITests */,
 			);
-			name = lightboxUITests;
+			name = LightboxUITests;
 			packageProductDependencies = (
 			);
-			productName = "light-tableUITests";
-			productReference = AA7A31032F36EEB4009005A5 /* lightboxUITests.xctest */;
+			productName = "LightboxUITests";
+			productReference = AA7A31032F36EEB4009005A5 /* LightboxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA7A30E52F36EEB3009005A5 /* Build configuration list for PBXProject "lightbox" */;
+			buildConfigurationList = AA7A30E52F36EEB3009005A5 /* Build configuration list for PBXProject "Lightbox" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA7A30E92F36EEB3009005A5 /* lightbox */,
-				AA7A30F82F36EEB4009005A5 /* lightboxTests */,
-				AA7A31022F36EEB4009005A5 /* lightboxUITests */,
+				AA7A30E92F36EEB3009005A5 /* Lightbox */,
+				AA7A30F82F36EEB4009005A5 /* LightboxTests */,
+				AA7A31022F36EEB4009005A5 /* LightboxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		AA7A30FB2F36EEB4009005A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7A30E92F36EEB3009005A5 /* lightbox */;
+			target = AA7A30E92F36EEB3009005A5 /* Lightbox */;
 			targetProxy = AA7A30FA2F36EEB4009005A5 /* PBXContainerItemProxy */;
 		};
 		AA7A31052F36EEB4009005A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA7A30E92F36EEB3009005A5 /* lightbox */;
+			target = AA7A30E92F36EEB3009005A5 /* Lightbox */;
 			targetProxy = AA7A31042F36EEB4009005A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,7 +415,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-table";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
@@ -457,7 +457,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-table";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +483,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-tableTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightboxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -493,7 +493,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lightbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lightbox";
 			};
 			name = Debug;
 		};
@@ -507,7 +507,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-tableTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightboxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -517,7 +517,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lightbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lightbox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lightbox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lightbox";
 			};
 			name = Release;
 		};
@@ -530,7 +530,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-tableUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightboxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -540,7 +540,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "light-table";
+				TEST_TARGET_NAME = "Lightbox";
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.light-tableUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.steebe.lightboxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -563,14 +563,14 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "light-table";
+				TEST_TARGET_NAME = "Lightbox";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA7A30E52F36EEB3009005A5 /* Build configuration list for PBXProject "lightbox" */ = {
+		AA7A30E52F36EEB3009005A5 /* Build configuration list for PBXProject "Lightbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7A310B2F36EEB4009005A5 /* Debug */,
@@ -579,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA7A310D2F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightbox" */ = {
+		AA7A310D2F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "Lightbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7A310E2F36EEB4009005A5 /* Debug */,
@@ -588,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA7A31102F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightboxTests" */ = {
+		AA7A31102F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "LightboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7A31112F36EEB4009005A5 /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA7A31132F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "lightboxUITests" */ = {
+		AA7A31132F36EEB4009005A5 /* Build configuration list for PBXNativeTarget "LightboxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA7A31142F36EEB4009005A5 /* Debug */,

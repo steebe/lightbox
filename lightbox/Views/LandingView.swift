@@ -1,6 +1,6 @@
 //
 //  LandingView.swift
-//  lightbox
+//  Lightbox
 //
 //  Created by Steve Bass on 2/8/26.
 //

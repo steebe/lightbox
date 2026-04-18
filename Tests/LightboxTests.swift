@@ -1,6 +1,6 @@
 //
 //  LightboxTests.swift
-//  lightboxTests
+//  LightboxTests
 //
 //  Created by Steve Bass on 2/6/26.
 //

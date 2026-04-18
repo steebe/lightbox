@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA7A30E92F36EEB3009005A5"
-               BuildableName = "lightbox.app"
-               BlueprintName = "lightbox"
-               ReferencedContainer = "container:lightbox.xcodeproj">
+               BuildableName = "Lightbox.app"
+               BlueprintName = "Lightbox"
+               ReferencedContainer = "container:Lightbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA7A30F82F36EEB4009005A5"
-               BuildableName = "lightboxTests.xctest"
-               BlueprintName = "lightboxTests"
-               ReferencedContainer = "container:lightbox.xcodeproj">
+               BuildableName = "LightboxTests.xctest"
+               BlueprintName = "LightboxTests"
+               ReferencedContainer = "container:Lightbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AA7A31022F36EEB4009005A5"
-               BuildableName = "lightboxUITests.xctest"
-               BlueprintName = "lightboxUITests"
-               ReferencedContainer = "container:lightbox.xcodeproj">
+               BuildableName = "LightboxUITests.xctest"
+               BlueprintName = "LightboxUITests"
+               ReferencedContainer = "container:Lightbox.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA7A30E92F36EEB3009005A5"
-            BuildableName = "lightbox.app"
-            BlueprintName = "lightbox"
-            ReferencedContainer = "container:lightbox.xcodeproj">
+            BuildableName = "Lightbox.app"
+            BlueprintName = "Lightbox"
+            ReferencedContainer = "container:Lightbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -87,9 +87,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AA7A30E92F36EEB3009005A5"
-            BuildableName = "lightbox.app"
-            BlueprintName = "lightbox"
-            ReferencedContainer = "container:lightbox.xcodeproj">
+            BuildableName = "Lightbox.app"
+            BlueprintName = "Lightbox"
+            ReferencedContainer = "container:Lightbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
